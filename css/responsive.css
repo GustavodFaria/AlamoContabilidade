@@ -1,0 +1,10 @@
+@media screen and (max-width: 1200px){
+    .blocos-servico-area{
+        gap: 1rem;
+        grid-template-columns: 2fr 2fr;
+    } 
+    .blocos-servico-area .bloco-sobre:hover, .click-contact:hover {
+        transform: none;
+        opacity: 0.5;
+    }
+}
