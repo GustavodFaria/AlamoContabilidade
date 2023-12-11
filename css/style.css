@@ -178,3 +178,61 @@
 .blco-click{
     text-decoration: none;
 }
+
+
+/*==FORMULÁRIO==*/
+
+.form-area{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+}
+
+.form-area .title-form{
+    font-size: 2.5rem;
+    color: var(--second-color);
+    margin-bottom: 3rem;
+    text-transform: uppercase;
+}
+
+.fomulario-envio{
+    display: flex;
+    flex-direction: column;
+}
+
+.fomulario-envio label{
+    text-transform: uppercase;
+    color: var(--second-color);
+    font-weight: 900;
+    margin-left: 1rem;
+}
+
+.fomulario-envio input{
+    margin-bottom: 1rem;
+    width: 30rem;
+    height: 3rem;
+    border: 1px solid var(--second-color);
+    border-radius: 2rem;
+    padding-left: 1rem;
+}
+
+.fomulario-envio  textarea{
+    margin-bottom: .5rem;
+    width: 30rem;
+    height: 20rem;
+    border: 1px solid var(--second-color);
+    border-radius: 2rem;
+    padding: 1rem;
+}
+
+.form-area button{
+    width: 50%;
+    align-self: center;
+    padding: .5rem;
+    border-radius: .6rem;
+    border: none;
+    color: white;
+    background-color: var(--second-color);
+    text-transform: uppercase;
+}
