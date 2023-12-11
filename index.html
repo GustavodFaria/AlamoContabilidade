@@ -86,23 +86,28 @@
             
         </section>
 
+        <section class="form-area" id="contato">
 
-        <section class="form-area">
+            <h1 class="title-form">Formulário de contato</h1>
 
-            <h1>Form de contato</h1>
-
-            <form action="https://formsubmit.co/gd2037@gmail.com" method="POST" id="meuFormulario">
-                Seu nome completo:
+            <form class="fomulario-envio" action="https://formsubmit.co/gd2037@gmail.com" method="POST" id="meuFormulario">
+                <label for="name">Seu nome completo:</label>
                 <input type="text" name="name" required>
-                Seu e-mail:
+                
+                <label for="email">Seu e-mail:</label>
                 <input type="email" name="email" required>
-                Sua mensagem:
-                <textarea name="message" rows="4" required></textarea>
+                
+                <label for="message">Sua dúvida:</label>
+                <textarea name="message" rows="10" required></textarea>
                 <input type="hidden" name="_captcha" value="false">
+
                 <button type="submit">enviar</button>
             </form>
         </section>
 
+        <footer class="footer-area">
+        
+        </footer>
 
         <script src="script/script.js"></script>
     </body>
